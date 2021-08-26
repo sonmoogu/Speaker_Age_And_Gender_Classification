@@ -1,6 +1,7 @@
 ## VGG16 Pre-trained model transfer learning
 
  ![vggmodel](https://user-images.githubusercontent.com/74817754/130889369-157cee32-738e-4674-92de-90f68ce58865.jpg) 
+ 
  Rf) https://neurohive.io/en/popular-networks/vgg16/
  
  다음과 같은 vgg모델을 사용한다.
