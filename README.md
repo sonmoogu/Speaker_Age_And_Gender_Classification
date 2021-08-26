@@ -6,7 +6,9 @@
   * AutoScaled 된 Mel_Spec 이미지 샘플 **[노인남녀]_test(명령어음성)**
   ![mel_old_test_1](https://user-images.githubusercontent.com/73811196/130889131-b04b202e-701e-4e4a-8a1e-4e0dcf8a082f.png)
   
-  Test데이터의 Mel-spectrogram 변환 과정에서는 Train, Validation(16kHz)와 같이 사용하기 위하여 48kHz --> 16kHz의 Downsampling 과정을 추가하였다.
+  Test데이터의 Mel-spectrogram 변환 과정에서는 Train, Validation(16kHz)와 같이 사용하기 위하여 
+  
+  48kHz --> 16kHz의 Downsampling 과정을 추가하였다.
   
 -----
 
