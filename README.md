@@ -1,11 +1,10 @@
 # Speaker_Age_And_Gender_Classification (임시 README)
 
-## 지식공유 (Knowledge Sharings)
+## wavPreprocess
 
-블로그, 유튜브를 통해 지식공유를 실천하고 있습니다.
+- 음성 input -> MatLab에서 Mel_Spectogram 이미지만들기
 
-- [유튜브 채널](https://www.youtube.com/channel/UCt2wAAXgm87ACiQnDHQEW6Q)
-- [블로그](https://teddylee777.github.io/)
+
 
 **취지**
 
