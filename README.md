@@ -22,7 +22,7 @@
 
           Dataset(wav) : Train, Validation : AIHUB 자유대화 [노인, 일반남녀, 어린이] : 16kHz
 
-                         Test : AIHUB 명령어 [노인, 일반남녀, 어린이] : 16kHz
+                         Test : AIHUB 명령어 [노인, 일반남녀, 어린이] : 48kHz(사용 시 downsampling 필요)
           
 Ref) https://aihub.or.kr/aidata/33305
 
