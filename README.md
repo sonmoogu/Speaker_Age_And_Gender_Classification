@@ -7,6 +7,20 @@
   ![mel_old_test_1](https://user-images.githubusercontent.com/73811196/130889131-b04b202e-701e-4e4a-8a1e-4e0dcf8a082f.png)
   
 -----
+
+## VGG16 Pre-trained model transfer learning
+
+ ![vggmodel](https://user-images.githubusercontent.com/74817754/130889369-157cee32-738e-4674-92de-90f68ce58865.jpg) 
+ 
+ Rf) https://neurohive.io/en/popular-networks/vgg16/
+ 
+ 다음과 같은 vgg모델을 사용한다.
+ 
+마지막 출력층의 경우 maxpooling, activation(relu) , dropout, activation(softmax)를 거쳐 생성한다.
+
+데이터 셋의 경우 앞서와 같이 wav 파일을 mel-spectrogram으로 변환하는 wavPreprocess를 사용한다.
+
+
 ## 동영상 강의 묶음, 재생목록 (Video Lectures)
 
 Video 강좌는 제가 개인적으로 생각하는 순차적 학습 단계 입니다. 물론, 난이도와도 연관이 있습니다. 
