@@ -1,4 +1,4 @@
-# Speaker_Age_And_Gender_Classification (임시 README)
+# Speaker_Age_And_Gender_Classification
 
 ## wavPreprocess
 
