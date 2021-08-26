@@ -20,7 +20,7 @@
 
 데이터 셋의 경우 앞서와 같이 wav 파일을 mel-spectrogram으로 변환하는 wavPreprocess를 사용한다.
 
-Dataset : Train, Validation : AIHUB 자유대화 [노인, 일반남녀, 어린이]
+          Dataset : Train, Validation : AIHUB 자유대화 [노인, 일반남녀, 어린이]
 
           Test : AIHUB 명령어 [노인, 일반남녀, 어린이]
           
