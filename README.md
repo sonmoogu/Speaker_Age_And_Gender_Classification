@@ -3,7 +3,7 @@
 ## wavPreprocess
 
 * Saving_Mel.m : 로컬 경로내 wav파일 -> Mel_Spectogram 이미지로 모두 변환
-  * AutoScaled 된 Mel_Spec 이미지 샘플[노인남녀]_test(명령어음성)
+  * AutoScaled 된 Mel_Spec 이미지 샘플**[노인남녀]_test(명령어음성)**
   ![mel_old_test_1](https://user-images.githubusercontent.com/73811196/130889131-b04b202e-701e-4e4a-8a1e-4e0dcf8a082f.png)
   
 
