@@ -22,7 +22,7 @@
 
           Dataset : Train, Validation : AIHUB 자유대화 [노인, 일반남녀, 어린이]
 
-          Test : AIHUB 명령어 [노인, 일반남녀, 어린이]
+                    Test : AIHUB 명령어 [노인, 일반남녀, 어린이]
           
 Ref) https://aihub.or.kr/aidata/33305
 
