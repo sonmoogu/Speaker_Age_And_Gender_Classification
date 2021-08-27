@@ -16,9 +16,10 @@
 * CNN2D_Age_Classification_rmsprop_idg_6000.ipynb
   * STEP 1 ~ STEP 9 walkthrough 형식으로 컴파일시 모델 자동 저장
      
-     Dataset(wav) : Train, Validation : [AIHUB 자유대화](https://aihub.or.kr/aihub-data/natural-language/about) 노인, 일반남녀, 어린이 : 16kHz
+     [사용 데이터: AI HUB](https://aihub.or.kr/aihub-data/natural-language/about)
+     Dataset(wav) : Train, Validation : AIHUB 자유대화 (노인, 일반남녀, 어린이) : 16kHz
 
-                         Test : [AIHUB 명령어](https://aihub.or.kr/aihub-data/natural-language/about) 노인, 일반남녀, 어린이 : 48kHz(사용 시 downsampling 필요) 
+                    Test : AIHUB 명령어 (노인, 일반남녀, 어린이) : 48kHz(사용 시 downsampling 필요) 
 
 ## MobileNet_V3 
 
@@ -40,6 +41,7 @@
 
 데이터 셋의 경우 앞서와 같이 wav 파일을 mel-spectrogram으로 변환하는 wavPreprocess를 사용한다.
 
+          [사용 데이터: AI HUB] (https://aihub.or.kr/aihub-data/natural-language/about)
           Dataset(wav) : Train, Validation : AIHUB 자유대화 [노인, 일반남녀, 어린이] : 16kHz
 
                          Test : AIHUB 명령어 [노인, 일반남녀, 어린이] : 48kHz(사용 시 downsampling 필요)
