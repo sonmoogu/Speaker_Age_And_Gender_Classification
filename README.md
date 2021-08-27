@@ -9,6 +9,18 @@
   Test데이터의 Mel-spectrogram 변환 과정에서는 Train, Validation(16kHz)와 같이 사용하기 위하여 
   
   48kHz --> 16kHz의 Downsampling 과정을 추가하였다.
+-----
+  
+## CNN2D_Manual 
+
+* CNN2D_Age_Classification_rmsprop_idg_modify.ipynb
+  * STEP 1 ~ STEP 9 walkthrough 형식으로 컴파일시 모델 자동 저장
+
+## MobileNet_V3 
+
+* A.	Age_Classifier_Using_Fine_tuned_TFHuB_Tranfer_Learning.ipynb
+  * STEP 0 ~ STEP 7 walkthrough 형식으로 컴파일시 모델 자동 저장
+  * [모델 vector source](https://tfhub.dev/google/imagenet/mobilenet_v3_large_100_224/feature_vector/5)
   
 -----
 
