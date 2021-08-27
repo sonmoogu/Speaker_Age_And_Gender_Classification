@@ -49,3 +49,27 @@
                          Test : AIHUB 명령어 [노인, 일반남녀, 어린이] : 48kHz(사용 시 downsampling 필요)
           
 Ref) https://aihub.or.kr/aidata/33305
+
+#GMM based age, gender recognition
+
+![image 1](https://user-images.githubusercontent.com/73654014/131099698-6f5a9fb1-d667-4bbc-af06-e1554c8a5b3c.png)
+
+파일구성 :
+-ModelsTrainer.py : 분류를 하기 위해서 GMM모델을 생성하는 코드로써. ModelsTrainer 메인 함수 선언시 TrainingData폴더내에 분류할 파일명을 만들고 그안에 .wav파일 데이터를 저장한다.
+예) dir => '''/GMM_based_age_gender_recognition/TrainingData/Childrens/(...).wav wav파일들의 디렉토리는 이렇게 된다.
+
+-GenderIdentifier_other.py : GMM모델을 읽어오고 Testdata 폴더 에서 음성 파일을 하나하나의 특성을 추출하고 읽어온 GMM 모델과의 점수를 계산하여 출력한다. 이에 클래스 중 가장 큰 점수를 갖고 있는 값이 예상값이 되는것이다.
+입력으로 받는 dir 목록 : 
+1. TestingData : (실제로 Test할 데이터이고 TestingData폴더 안에 분류할 라벨의 폴더를 만들어서 그안에 데이터를 넣으면 된다.) 예) '''/GMM_based_age_gender_recognition/TestingData/Childrens/(...).wav -> 이안에 Children데이터만 넣으며. 기대값이 Children이 된다.
+2. GMM(.gmm파일) : ModelsTrainer.py에서 생성한 GMM파일로써 분류할 클레스 만큼 GMM파일이 있으며 그것의 저장소를 다 값으로 전달하여 Testdata에서의 스코어를 계산할때 사용한다.
+
+-Silenceremove_try.py : ModelsTrainer.py에서 음성 특성인 (Praat 특성값)을 추출하기전 전처리 과정으로써 묵음제거를 합니다.
+
+-featurextractor_other.py : Praat의 파이썬 내부 라이브러리 Parselmouth를 이용하여 추출한 음성 특성값으로(mean F0 Hz, Shimmer,jitter 등)테스트할 때나 트레인할때 사용한다.(Praat 파라미터 추출)
+-FeaturesExtractor_other.py : Praat로 추출한 음성 특성을 전달한다.
+
+-FeaturesExtractor.py : 이것도 역시 트레인할때나 테스트 할때 음성 특성을 추출하는것인데 MFCC,delta MFCC, delta-delta MFCC 이렇게를 합친 값을 생성하는 코드이다(MFCC 파라미터 추출)
+
+-featueextrctor_for_old : 노인, 일반 만을 구분하기 위해 그 둘사이에서 차이나는 음성 특성을 선택하여 뽑는 코드이다.
+
+**!!!!중요한 것이 MFCC로 Train -> MFCC로 생성한 GMM모델로 Test  ,  Praat로 Train -> Praat로 생성한 GMM 모델로 Test))**
