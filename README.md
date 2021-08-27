@@ -50,9 +50,12 @@
           
 Ref) https://aihub.or.kr/aidata/33305
 
-#GMM based age, gender recognition
+## GMM based age, gender recognition
 
 ![image 1](https://user-images.githubusercontent.com/73654014/131099698-6f5a9fb1-d667-4bbc-af06-e1554c8a5b3c.png)
+
+활용한 소스 코드 
+=> Ref) https://github.com/SuperKogito/Voice-based-gender-recognition
 
 파일구성 :
 -ModelsTrainer.py : 분류를 하기 위해서 GMM모델을 생성하는 코드로써. ModelsTrainer 메인 함수 선언시 TrainingData폴더내에 분류할 파일명을 만들고 그안에 .wav파일 데이터를 저장한다.
