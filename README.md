@@ -58,6 +58,7 @@ Ref) https://aihub.or.kr/aidata/33305
 => Ref) https://github.com/SuperKogito/Voice-based-gender-recognition
 
 파일구성 :
+
 -ModelsTrainer.py : 분류를 하기 위해서 GMM모델을 생성하는 코드로써. ModelsTrainer 메인 함수 선언시 TrainingData폴더내에 분류할 파일명을 만들고 그안에 .wav파일 데이터를 저장한다.
 예) dir => '''/GMM_based_age_gender_recognition/TrainingData/Childrens/(...).wav wav파일들의 디렉토리는 이렇게 된다.
 
