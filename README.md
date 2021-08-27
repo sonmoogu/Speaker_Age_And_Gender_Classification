@@ -54,6 +54,7 @@ Ref) https://aihub.or.kr/aidata/33305
 
 ![image 1](https://user-images.githubusercontent.com/73654014/131099698-6f5a9fb1-d667-4bbc-af06-e1554c8a5b3c.png)
 
+노인 남녀, 일반 남녀, 아동 -> 5가지 클레스 분류
 활용한 소스 코드 
 => Ref) https://github.com/SuperKogito/Voice-based-gender-recognition
 
