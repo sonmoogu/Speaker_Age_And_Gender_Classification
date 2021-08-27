@@ -17,9 +17,10 @@
   * STEP 1 ~ STEP 9 walkthrough 형식으로 컴파일시 모델 자동 저장
      
      [사용 데이터: AI HUB](https://aihub.or.kr/aihub-data/natural-language/about)
-     Dataset(wav) : Train, Validation : AIHUB 자유대화 (노인, 일반남녀, 어린이) : 16kHz
+     
+       Dataset(wav) : Train, Validation : AIHUB 자유대화 (노인, 일반남녀, 어린이) : 16kHz
 
-                    Test : AIHUB 명령어 (노인, 일반남녀, 어린이) : 48kHz(사용 시 downsampling 필요) 
+                      Test : AIHUB 명령어 (노인, 일반남녀, 어린이) : 48kHz(사용 시 downsampling 필요) 
 
 ## MobileNet_V3 
 
